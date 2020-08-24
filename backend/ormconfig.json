@@ -6,7 +6,7 @@
     "port": 5432,
     "username": "postgres",
     "password": "docker",
-    "database": "economi",
+    "database": "jobs",
     "entities": [
       "./src/modules/**/infra/typeorm/entities/*.ts"
     ],
@@ -22,7 +22,7 @@
     "type": "mongodb",
     "host": "localhost",
     "port": 27017,
-    "database": "economi",
+    "database": "jobs",
     "useUnifiedTopology": true,
     "entities": [
       "./src/modules/**/infra/typeorm/schemas/*.ts"

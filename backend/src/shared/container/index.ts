@@ -1,9 +1,9 @@
 import { container } from 'tsyringe';
 
-import IUserRepository from '@modules/users/repositories/IUsersRepository';
+import IUsersRepository from '@modules/users/repositories/IUsersRepository';
 import UsersRepository from '@modules/users/infra/typeorm/repositories/UsersRepository';
 
-container.registerSingleton<IUserRepository>(
+container.registerSingleton<IUsersRepository>(
   'UsersRepository',
   UsersRepository,
 );
